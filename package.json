@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-less",
+  "version": "0.1.0",
+  "description": "Work with LESS stylesheets.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "LESS",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^10.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "LESS",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
