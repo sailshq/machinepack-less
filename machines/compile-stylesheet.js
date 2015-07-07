@@ -53,7 +53,7 @@ module.exports = {
   fn: function (inputs,exits) {
     var path = require('path');
     var LESS = require('less');
-    var _ = require('machinepack-lodash');
+    var _ = require('lodash');
     var Filesystem = require('machinepack-fs');
 
     // Resolve potentially-relative paths
