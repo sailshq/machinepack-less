@@ -77,11 +77,15 @@ module.exports = {
             filename: path.basename(inputs.source),
             paths: inputs.importPaths,
             compress: inputs.minify
-          }, function (err, css) {
+          }, function (err, result) {
             if (err) {
               return exits.error(err);
             }
-            return exits.success(css);
+
+            // result.imports is an array of the absolute path of every LESS stylesheet imported
+            // using @import directives from within the source stylesheet (and its imports... etc)
+
+            return exits.success(result.css);
           });
         }
         catch (e) {
