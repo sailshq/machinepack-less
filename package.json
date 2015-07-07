@@ -13,7 +13,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "machine": "^10.0.0"
+    "less": "^2.5.1",
+    "lodash": "^3.10.0",
+    "machine": "^10.0.0",
+    "machinepack-fs": "^5.1.0"
   },
   "devDependencies": {
     "test-machinepack-mocha": "^2.0.0"
@@ -21,7 +24,9 @@
   "machinepack": {
     "friendlyName": "LESS",
     "machineDir": "machines/",
-    "machines": [],
+    "machines": [
+      "compile-stylesheet"
+    ],
     "testsUrl": "https://travis-ci.org/treelinehq/machinepack-less"
   },
   "repository": {
