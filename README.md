@@ -1,4 +1,3 @@
-
 <h1>
   <a href="http://node-machine.org" title="Node-Machine public registry"><img alt="node-machine logo" title="Node-Machine Project" src="http://node-machine.org/images/machine-anthropomorph-for-white-bg.png" width="50" /></a>
   machinepack-less
@@ -9,7 +8,7 @@
 Work with LESS stylesheets.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-less.svg)](http://badge.fury.io/js/machinepack-less) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-less.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-less)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-less.svg)](http://badge.fury.io/js/machinepack-less) [![Build Status](https://travis-ci.org/treelinehq/machinepack-less.png?branch=master)](https://travis-ci.org/treelinehq/machinepack-less)
 
 ```sh
 $ npm install machinepack-less

@@ -12,7 +12,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "machine": "^10.0.0"
   },
   "devDependencies": {
@@ -21,6 +21,11 @@
   "machinepack": {
     "friendlyName": "LESS",
     "machineDir": "machines/",
-    "machines": []
+    "machines": [],
+    "testsUrl": "https://travis-ci.org/treelinehq/machinepack-less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:treelinehq/machinepack-less.git"
   }
 }
